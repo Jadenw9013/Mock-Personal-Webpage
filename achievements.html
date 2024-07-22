@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo-icon"><h1>JW</h1></a>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="work.html">Services</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><button id="changeColorButton">✨</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="page-title">Achievements</h1>
+    <main>
+        <section id="achievements">
+            <div class="card mb-4">
+                <div class="card-img-container">
+                    <img src="images/medal.jpg" alt="Competitive Bodybuilding Wins">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Competitive Bodybuilding Wins</h5>
+                    <p class="card-text">Placed top 5 in multiple local bodybuilding competitions.</p>
+                    <button class="styled-button" onclick="toggleModal('fitness-modal')">More info</button>
+                    <div id="fitness-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="toggleModal('fitness-modal')">&times;</span>
+                            <p>Competing in the world of bodybuilding requires unparalleled dedication, discipline, and determination. With multiple first-place finishes in both local and national competitions, my journey in bodybuilding has been marked by relentless hard work and a commitment to excellence. Each victory is a testament to the rigorous training, precise nutrition, and strategic planning that goes into achieving peak physical condition. Whether on stage or in the gym, my passion for bodybuilding continues to drive me towards new heights and inspire others to pursue their fitness goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-img-container">
+                    <img src="images/shirt.jpg" alt="Modeling for Skalez Gym Clothing">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Modeled For a Gym Clothing Brand</h5>
+                    <p class="card-text">Modeled in a Korean gym clothing brand called Skalez who specializes in quality fitness clothing.</p>
+                    <button class="styled-button" onclick="toggleModal('skalez-modal')">More info</button>
+                    <div id="skalez-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="toggleModal('skalez-modal')">&times;</span>
+                            <p>Modeling for Skalez, a renowned Korean gym clothing brand, has been an incredible experience. Skalez specializes in creating high-quality fitness apparel that combines style, comfort, and performance. As a model for their brand, I had the opportunity to showcase their innovative designs and premium materials that cater to fitness enthusiasts. The collaboration allowed me to represent a brand that aligns with my commitment to fitness and fashion, highlighting the importance of wearing the right gear to enhance both performance and confidence during workouts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-img-container">
+                    <img src="images/transformation.jpg" alt="Client Transformations">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Client Transformations</h5>
+                    <p class="card-text">Helped numerous clients achieve significant health and fitness transformations.</p>
+                    <button class="styled-button" onclick="toggleModal('transformation-modal')">More info</button>
+                    <div id="transformation-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="toggleModal('transformation-modal')">&times;</span>
+                            <p>One of the most rewarding aspects of my career has been helping clients achieve remarkable health and fitness transformations. Through personalized training programs and tailored nutritional guidance, I have assisted numerous individuals in reaching their fitness goals. These transformations go beyond just physical changes; they encompass improved health, increased confidence, and enhanced overall well-being. Seeing my clients' dedication and progress is a constant source of inspiration and motivation, driving me to continually provide the best support and expertise to help them succeed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>

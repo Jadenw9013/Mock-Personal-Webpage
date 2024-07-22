@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo-icon"><h1>JW</h1></a>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="work.html">Services</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><button id="changeColorButton">✨</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="page-title">Contact Me</h1>
+    <section id="contact-form">
+        
+        <form id="emailForm">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="reason">Reason for Contacting:</label>
+            <select id="reason" name="reason">
+                <option value="question">Question</option>
+                <option value="feedback">Personal Training</option>
+                <option value="request">Project Devlopement</option>
+                <option value="request">Other</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>

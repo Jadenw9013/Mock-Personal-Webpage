@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo-icon"><h1>JW</h1></a>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="work.html">Services</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><button id="changeColorButton">✨</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="page-title">Services</h1>
+
+    <section id="work">
+        <div class="card mb-4" id="fitness">
+            <div class="card-img-container"><img src="images/posing.jpg" class="card-img-top" alt="Competitive Bodybuilding Wins"></div>
+            <div class="card-body">
+               <h1 class="card-title">Fitness and Diet Services</h1>
+                <p class="card-text">Personalized fitness and diet plans designed to help you achieve your goals.</p>
+                <button class="styled-button" onclick="toggleModal('fitness-modal')">More info</button>
+                <div id="fitness-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="toggleModal('fitness-modal')">&times;</span>
+                        <p>Get personalized fitness and diet plans designed to help you achieve your health and wellness goals. Whether you're looking to lose weight, build muscle, or improve your overall fitness level, I offer tailored programs to meet your needs.</p>
+                        <ul>
+                            <li>Customized workout routines</li>
+                            <li>Nutritional guidance and meal planning</li>
+                            <li>Regular progress tracking and adjustments</li>
+                        </ul>
+                            <p>Pricing: Contact me for personalized pricing based on your specific requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>             
+                
+        <div class="card mb-4"  id="web-design">
+            <div class="card-img-container"><img src="https://imgs.search.brave.com/bT5V8RKMs6VyK0O8uYqQF0P09ayGvUeglbcyS4Yqb-A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9v/bmxpbmUtd2ViLWRl/c2lnbl81Mzg3Ni05/NTMwOS5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw" class="card-img-top" alt="Competitive Bodybuilding Wins"></div>
+            
+            <div class="card-body">
+               <h1 class="card-title">Web Design Services</h1>
+            <p class="card-text">Web design services to create modern, responsive websites tailored to you.</p>
+                <button class="styled-button" onclick="toggleModal('fitness-modal')">More info</button>
+                <div id="fitness-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="toggleModal('fitness-modal')">&times;</span>
+                        <p>Need a stunning website? I offer web design services to create modern, responsive websites tailored to your business or personal needs. Whether you're launching a new business or revamping your existing website, I can help you make a strong online presence.</p>
+                    <ul>
+                        <li>Custom website design and development</li>
+                        <li>Responsive design for mobile compatibility</li>
+                        <li>Integration of e-commerce functionality</li>
+                    </ul>
+                    <p>Pricing: Starting from $XXX, depending on the complexity of the project.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="card mb-4"  id="cpp">
+            <div class="card-img-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh9aWTeftY45MkvmJTH1h6c3Ke_cZPJ3DFlw&s" alt="Competitive Bodybuilding Wins"></div>
+            <div class="card-body">
+               <h1 class="card-title">C++ Services</h1>
+                <p class="card-text">I provide C++ programming services to meet your requirements from basic to complex projects.</p>
+                <button class="styled-button" onclick="toggleModal('fitness-modal')">More info</button>
+                <div id="fitness-modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="toggleModal('fitness-modal')">&times;</span>
+                        <p>From basic programming tasks to complex software development projects, I provide C++ programming services to meet your requirements. Whether you need assistance with coding assignments, software debugging, or algorithm development, I've got you covered.</p>
+                    <ul>
+                        <li>Programming assignments and projects</li>
+                        <li>Software development and debugging</li>
+                        <li>Algorithm design and optimization</li>
+                    </ul>
+                    <p>Pricing: Contact me for a personalized quote based on the scope of your project.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>

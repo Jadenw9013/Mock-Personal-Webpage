@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo-icon"><h1>JW</h1></a>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="work.html">Services</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><button id="changeColorButton">✨</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="page-title">Education</h1>
+    <main>
+        <section id="education">
+            <div class="card mb-4" id="SU">
+                <div class="card-img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3L-oSB0tCJnuleaV6ycLUokRlyJ2er9SGQ&s" alt="Seattle University">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Seattle University</h5>
+                    <p class="card-text">Currently a student at Seattle University pursuing a degree in Computer Science with a business specialization.</p>
+                    <button class="styled-button" onclick="toggleModal('seattleu-modal')">More info</button>
+                    <div id="seattleu-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="toggleModal('seattleu-modal')">&times;</span>
+                            <p>At Seattle University, I am engaged in a rigorous Computer Science program with a specialization in business. This unique combination allows me to merge technical skills with business acumen, preparing me for diverse roles in the tech industry. The curriculum includes advanced coursework in algorithms, data structures, and software development, as well as business courses in management and finance. The collaborative environment and access to industry connections have greatly enriched my educational experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4" id="BC">
+                <div class="card-img-container">
+                    <img src="https://s3.amazonaws.com/uchat_photos/bellevue/dd6348070c935d966c81952e166dced5_profile.jpeg" alt="Bellevue College">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Bellevue College</h5>
+                    <p class="card-text">Attended Bellevue College through the Running Start program for two years during my junior and senior year of high school.</p>
+                    <button class="styled-button" onclick="toggleModal('bellevue-modal')">More info</button>
+                    <div id="bellevue-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="toggleModal('bellevue-modal')">&times;</span>
+                            <p>Through the Running Start program at Bellevue College, I had the opportunity to complete college-level coursework while still in high school. This experience provided me with a head start on my higher education journey, allowing me to explore subjects such as advanced mathematics, computer science, and humanities. The program not only enhanced my academic skills but also helped me develop time management and independent study habits, which have been invaluable in my university studies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-4" id="CFA">
+                <div class="card-img-container">
+                    <img src="images/CFA.png" alt="Computing For All">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Computing For All</h5>
+                    <p class="card-text">Attended a Pre-Apprenticeship Course at Computing For All for three quarters.</p>
+                    <button class="styled-button" onclick="toggleModal('cfa-modal')">More info</button>
+                    <div id="cfa-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="toggleModal('cfa-modal')">&times;</span>
+                            <p>The Pre-Apprenticeship Course at Computing For All provided a solid foundation in software development and IT skills over three quarters. This intensive program covered key areas such as coding, database management, and cybersecurity, preparing me for real-world applications in the tech industry. The hands-on projects and mentorship from industry professionals were instrumental in developing my practical skills and understanding of the tech landscape.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
